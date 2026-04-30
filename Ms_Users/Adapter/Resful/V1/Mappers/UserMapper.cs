@@ -9,7 +9,6 @@ namespace Ms_Users.Adapter.Restful.v1.Mappers
         {
             return new DomainEntityUser
             {
-                UserId = dto.UserId,
                 RoleId = dto.RoleId,
                 FullName = dto.FullName,
                 Email = dto.Email,
@@ -20,5 +19,5 @@ namespace Ms_Users.Adapter.Restful.v1.Mappers
                 IsDeleted = false
             };
         }
-    }
+    }   
 }
